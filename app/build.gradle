@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply from: "$project.rootDir/tools/script-git-version.gradle"
 
 android {
     compileSdkVersion 25
@@ -13,8 +12,8 @@ android {
         applicationId "me.hasham.androidbootstrap"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode gitVersionCodeTime
-        versionName gitVersionName
+        versionCode 1
+        versionName "1.0"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

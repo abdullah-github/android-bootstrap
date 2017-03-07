@@ -5,7 +5,7 @@ import android.app.Application;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import me.hasham.androidbootstrap.BaseActivity;
+import me.hasham.androidbootstrap.ui.activities.BaseActivity;
 import me.hasham.androidbootstrap.dependencies.modules.AppModule;
 import me.hasham.androidbootstrap.dependencies.modules.NetModule;
 

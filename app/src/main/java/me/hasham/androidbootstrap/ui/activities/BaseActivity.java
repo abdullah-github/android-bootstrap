@@ -1,4 +1,4 @@
-package me.hasham.androidbootstrap;
+package me.hasham.androidbootstrap.ui.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
